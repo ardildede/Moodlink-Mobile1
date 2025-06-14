@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MoodLink Mobile",
+    "slug": "moodlink-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#8b5cf6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moodlink.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#8b5cf6"
+      },
+      "package": "com.moodlink.mobile",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {},
+    "plugins": [
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4a27fcad-6d64-40d9-aad7-686c2c5fa58a"
+      }
+    }
+  }
+}
